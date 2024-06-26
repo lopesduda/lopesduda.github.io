@@ -1,0 +1,195 @@
+.image img {
+    width: 200px;
+    height: 200px;
+    object-position:  right;
+    border-radius: 50%;
+    border: 5px solid rgb(69, 10, 124);
+    margin:  0 auto; 
+    display: block;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center; 
+}
+
+h3, h4, p, ul {
+    font-family: Optima, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.redes_sociais ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px;
+   
+
+}
+
+.redes_sociais li{
+    margin-right: 10px; 
+
+}
+
+.redes_sociais h4{
+    text-align: center;
+}
+
+body{
+   background-color:  black;
+}
+
+h1, h2, h3, h4, p, ul{
+    color: white; 
+
+}
+.habilidades ul{
+    list-style-type: none;
+}
+
+.experiencia ul{
+    list-style-type: none;
+}
+
+.pagina ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.pagina li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+h1, h2, p, ul{
+    text-align: center; 
+    justify-content: space-around;
+
+}
+
+.me{
+    max-width: 820px;
+    margin: 20px auto;
+    background-color: #3910aa4f;
+    padding: 20px;
+    box-shadow: 10px solid white; 
+    border-radius: 40px;
+}
+
+a{
+    color: rgb(212, 0, 166); 
+}
+
+
+footer{
+    max-width: 820px;
+    margin: 80px auto;
+    background-color: #3910aa4f;
+    padding: 10px;
+    box-shadow: 10px solid white; 
+    border-radius: 20px;
+   
+
+}
+
+footer p{
+color: rgb(212, 0, 166);
+}
+
+footer h4{
+    color: rgb(212, 0, 166);
+}
+
+.pagina{
+    max-width: 820px;
+    background-color: #3910aa4f;
+    padding: 10px;
+    box-shadow: 10px solid white; 
+    border-radius: 20px;
+    position: fixed;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 66px;
+    right: 66px;
+}
+
+@media screen and (max-width: 768px){
+    .pagina ul{
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 100;
+    }
+
+    .pagina ul li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        top: 10%;
+    }
+
+    .me{
+        display: flex; 
+        flex-direction: column;
+    }
+    .nome{
+        order: 1
+    }
+    .image{
+        order:2; 
+    }
+    .apresentacao{
+        order: 3; 
+    }
+    .e-mail{
+        order: 4; 
+    }
+    .localizacao{
+        order: 5;
+    }
+
+
+
+}
+
+.escola{
+    max-width: 820px;
+    margin: 80px auto;
+    background-color: rgba(212, 0, 166, 0.404) ;
+    padding: 10px;
+    box-shadow: 10px solid white; 
+    border-radius: 20px;
+   
+}
+
+.experiencia{
+    max-width: 820px;
+    margin: 80px auto;
+    background-color: rgba(212, 0, 166, 0.404) ;
+    padding: 10px;
+    box-shadow: 10px solid white; 
+    border-radius: 20px;
+}
+
+.habilidades{
+    max-width: 820px;
+    margin: 80px auto;
+    background-color: rgba(212, 0, 166, 0.404) ;
+    padding: 10px;
+    box-shadow: 10px solid white; 
+    border-radius: 20px;
+}
+
+.certificados{
+    max-width: 820px;
+    margin: 80px auto;
+    background-color: rgba(212, 0, 166, 0.404) ;
+    padding: 10px;
+    box-shadow: 10px solid white; 
+    border-radius: 20px;
+
+}
